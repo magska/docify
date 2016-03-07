@@ -4,7 +4,7 @@
   "description": "A gamification project for documentaion",
   "main": "index.js",
   "scripts": {
-    "test": "grunt test"
+    "test": "gulp test"
   },
   "keywords": [
     "documentation",
@@ -12,5 +12,26 @@
     "gamification"
   ],
   "author": "Magnus Skaalsveen",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^2.3.0",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-eslint": "^18.0.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/magska/docify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/magska/docify/issues"
+  },
+  "homepage": "https://github.com/magska/docify",
+  "dependencies": {
+    "fs": "0.0.2"
+  }
 }
