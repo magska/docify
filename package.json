@@ -1,0 +1,16 @@
+{
+  "name": "docifiy",
+  "version": "0.0.1",
+  "description": "A gamification project for documentaion",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "keywords": [
+    "documentation",
+    "tooling",
+    "gamification"
+  ],
+  "author": "Magnus Skaalsveen",
+  "license": "ISC"
+}
